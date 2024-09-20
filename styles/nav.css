@@ -1,0 +1,25 @@
+@import url(global.css);
+@import url(index.css);
+nav{
+    display: flex; /*elemento um ao lado do outro*/
+    justify-content: space-between;  /*  espaço entre os elementos os elementos */
+    align-items: center;    
+    line-height: 0;     /*tirar todos os espaços  */
+    padding: block;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;    
+    gap: 24px; /*  espaço entre os elementos os elementos */
+    padding-block: 8px;
+
+}
+ nav ul li:last-child img /*pegar o utlimo filho*/ { 
+    width: 40px ;
+    height: 40px;
+
+}
+.bg-surface-color{
+    background-color: var(--surface-color);
+}

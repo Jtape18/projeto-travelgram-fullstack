@@ -13,7 +13,7 @@
     --text-color-primary: #313131; 
     --text-color-secondary: #6c6c6c;
 
-    --font-family: "Poppins", sans-serif;
+    --font-family: "Poppins", sans-serif; 
     --text-lg: bold 32px/125% var(--font-family);
     --text: 16PX/1.5 var(--font-family);
     --text-md: 14px/175% var(--font-family);
@@ -26,6 +26,20 @@ body{
     color: var(--text-color-secondary);
     background-color: var(--background-color);
 
+}
+a{
+   text-decoration: none;  /* tirar o underline nos links */
+   color: inherit;
+}
+ a:hover/* quando passar o mouse por cima*/ { 
+    text-decoration: underline;
+    color: var(--brand-color);
+
+}
+.conteiner{
+    padding-inline: 32px; /*modificar apenas nas laterais*/
+    max-height: 1280px; /*largura maxima*/
+    margin-inline: auto;/*modificar apenas nas laterais*/
 }
 
 
